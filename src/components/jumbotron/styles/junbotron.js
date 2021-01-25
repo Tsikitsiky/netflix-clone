@@ -36,7 +36,7 @@ export const Container = styled.section`
     background: black;
 
     @media(max-width: 1000px) {
-        ${Item}: last-of-type h2 {
+        ${Item}:last-of-type h2 {
             margin-bottom: 50px;
         }
     }
@@ -45,7 +45,7 @@ export const Container = styled.section`
 //title
 export const Title = styled.h1`
     font-size: 50px;
-    lign-height: 1.1;
+    line-height: 1.1;
     margin-bottom: 8px;
     
     @media(max-width: 600px) {
@@ -57,7 +57,7 @@ export const Title = styled.h1`
 export const SubTitle = styled.h2`
     font-size: 26px;
     font-weight: normal;
-    ligne-height: normal;
+    line-height: normal;
     @media(max-width: 600px) {
         font-size: 18px;
     }

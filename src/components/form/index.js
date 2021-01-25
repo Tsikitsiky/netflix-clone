@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Input, Link, Title, Submit, Error, TextSmall, Base } from './styles/form'
+import { Container, Input, Link, Title, Text, Submit, Error, TextSmall, Base } from './styles/form'
 
 export default function Form({children, ...restProps}) {
     return <Container {...restProps}>{children}</Container>

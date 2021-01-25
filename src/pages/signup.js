@@ -1,40 +1,54 @@
 import React, { useContext, useState } from 'react'
-import { useHistory } from 'react-router-dom';
 import { Form } from '../components'
-import FooterContainer from '../containers/footer';
 import HeaderContainer from '../containers/header'
-import { FirebaseContext } from '../context/firebase';
 import * as ROUTES from '../constants/routes'
+import FooterContainer from '../containers/footer';
+import { useHistory } from 'react-router-dom';
+import { FirebaseContext } from '../context/firebase';
 
-export default function Signin() {
-    const {firebase} = useContext(FirebaseContext);
+export default function Signup() {
     const history = useHistory();
+    const {firebase} = useContext(FirebaseContext);
+    const [firstName, setFirstName] = useState('');
     const [error, setError] = useState('');
     const [emailAddress, setEmailAddress] = useState('');
     const [password, setPassword] = useState('');
 
-    const isValid = emailAddress === '' | password === '';
+    const isValid = firstName === '' || emailAddress === '' || password === '';
 
-    const handleSingin = (e) => {
+    const handleSingup = (e) => {
         e.preventDefault();
+
         firebase
-            .auth()
-            .signInWithEmailAndPassword(emailAddress, password) 
-            .then(() => {
-                setEmailAddress('');
-                setPassword('');
-                setError('');
-                history.push(ROUTES.BROWSE);
+        .auth()
+        .createUserWithEmailAndPassword(emailAddress, password)
+        .then((result) => {
+            result.user
+            .updateProfile({
+                displayName: firstName,
+                photoUrl: Math.floor(Math.random * 5) + 1,
             })
-            .catch((error) => setError(error.message))
+        .then(() => {
+            setEmailAddress('');
+            setPassword('');
+            setError('');
+            history.push(ROUTES.BROWSE)
+            })
+        }).catch((error) => setError(error.message))
     }
+
     return (
         <>
         <HeaderContainer>
             <Form>
-                <Form.Title>Sign In</Form.Title>
+            <Form.Title>Sign Up</Form.Title>
                 {error && <Form.Error>{error}</Form.Error>}
-                <Form.Base onSubmit={handleSingin} method="POST">
+                <Form.Base onSubmit={handleSingup} method="POST">
+                    <Form.Input
+                    placeholder="FirstName"
+                    value={firstName}
+                    onChange={({target}) => setFirstName(target.value)} 
+                    />
                     <Form.Input
                     placeholder="Email Address"
                     value={emailAddress}
@@ -48,11 +62,11 @@ export default function Signin() {
                     onChange={({target}) => setPassword(target.value)} 
                     />
                     <Form.Submit disabled={isValid} type="Submit" >
-                        Sing In
+                        Sing Up
                     </Form.Submit>
                     <Form.Text>
-                        New to netflix? &nbsp;
-                        <Form.Link to="/signup">Sign up now.</Form.Link>
+                        Already have an account? &nbsp;
+                        <Form.Link to={ROUTES.SIGN_IN}>Sign In.</Form.Link>
                     </Form.Text>
                     <Form.TextSmall>
                         This page is protected by Google reCAPTCHA
