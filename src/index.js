@@ -13,7 +13,10 @@ const config = {
     appId: "1:251269401153:web:b7ef14a8f5d26e7fab14c0",
 }
 
+// import { seedDatabase } from './seed';
+
 const firebase = window.firebase.initializeApp(config);
+// seedDatabase(firebase);
 
 ReactDOM.render(
     <>

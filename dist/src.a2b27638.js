@@ -37561,7 +37561,7 @@ OptForm.Text = function OptFormText(_ref4) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Profile = exports.Dropdown = exports.Picture = exports.SearchInput = exports.SearchIcon = exports.Search = exports.PlayButton = exports.FeatureCallOut = exports.Feature = exports.Text = exports.Group = exports.Frame = exports.Logo = exports.ButtonLink = exports.Link = exports.Container = exports.Background = void 0;
+exports.Profile = exports.Dropdown = exports.Picture = exports.SearchInput = exports.SearchIcon = exports.Search = exports.PlayButton = exports.FeatureCallOut = exports.Feature = exports.Text = exports.Group = exports.Logo = exports.ButtonLink = exports.Link = exports.Container = exports.Background = void 0;
 
 var _styledComponents = _interopRequireDefault(require("styled-components"));
 
@@ -37569,18 +37569,8 @@ var _reactRouterDom = require("react-router-dom");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _templateObject17() {
-  var data = _taggedTemplateLiteral(["\n    display: flex;\n    align-items: center;\n    margin-left: 20px;\n    position: relative;\n    button {\n        cursor: pointer;\n    }\n    &:hover > ", " {\n        display: flex;\n        flex-direction: column;\n    }\n"]);
-
-  _templateObject17 = function _templateObject17() {
-    return data;
-  };
-
-  return data;
-}
-
 function _templateObject16() {
-  var data = _taggedTemplateLiteral(["\n    display: none;\n    position: absolute;\n    background-color: black;\n    padding: 10px;\n    width: 100px;\n    top: 32px;\n    right: 10px;\n    ", ":last-of-type ", " {\n        cursor: pointer;\n    }\n    ", " {\n        margin-bottom: 10px;\n        &:last-of-type {\n            margin-bottom: 0;\n        }\n        ", ", ", " {\n            cursor: default;\n        }\n    }\n    button {\n        margin-right: 10px;\n    }\n    p {\n        font-size: 12px;\n        margin-bottom: 0;\n        margin-top: 0;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\talign-items: center;\n\tmargin-left: 20px;\n\tposition: relative;\n\tbutton {\n\t\tcursor: pointer;\n\t}\n\t&:hover > ", " {\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t}\n"]);
 
   _templateObject16 = function _templateObject16() {
     return data;
@@ -37590,7 +37580,7 @@ function _templateObject16() {
 }
 
 function _templateObject15() {
-  var data = _taggedTemplateLiteral(["\n    background: url(", ");\n    background-size: contain;\n    border: 0;\n    width: 32px;\n    height: 32px;\n    cursor: pointer;\n"]);
+  var data = _taggedTemplateLiteral(["\n\tdisplay: none;\n\tposition: absolute;\n\tbackground-color: black;\n\tpadding: 10px;\n\twidth: 100px;\n\ttop: 32px;\n\tright: 10px;\n\t", ":last-of-type ", " {\n\t\tcursor: pointer;\n\t}\n\t", " {\n\t\tmargin-bottom: 10px;\n\t\t&:last-of-type {\n\t\t\tmargin-bottom: 0;\n\t\t}\n\t\t", ", ", " {\n\t\t\tcursor: default;\n\t\t}\n\t}\n\tbutton {\n\t\tmargin-right: 10px;\n\t}\n\tp {\n\t\tfont-size: 12px;\n\t\tmargin-bottom: 0;\n\t\tmargin-top: 0;\n\t}\n"]);
 
   _templateObject15 = function _templateObject15() {
     return data;
@@ -37600,7 +37590,7 @@ function _templateObject15() {
 }
 
 function _templateObject14() {
-  var data = _taggedTemplateLiteral(["\n      background-color: rgba(64, 64, 64, 0.5);\n      color: white;\n      border: 1px solid white;\n      transition: width 0.5s;\n      height: 30px;\n      font-size: 14px;\n      border-radius: 4px;\n      margin-left: ", ";\n      padding: ", ";\n      opacity: ", ";\n      width: ", "\n"]);
+  var data = _taggedTemplateLiteral(["\n\tbackground: url(", ");\n\tbackground-size: contain;\n\tborder: 0;\n\twidth: 32px;\n\theight: 32px;\n\tcursor: pointer;\n"]);
 
   _templateObject14 = function _templateObject14() {
     return data;
@@ -37610,7 +37600,7 @@ function _templateObject14() {
 }
 
 function _templateObject13() {
-  var data = _taggedTemplateLiteral(["\n    cursor: pointer;\n    background-color : transparent;\n    border : 0;\n    img {\n        filter : brightness(0) invert(1);\n        width : 16px;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n\tbackground-color: #44444459;\n\tcolor: white;\n\tborder: 1px solid white;\n\ttransition: width 0.5s;\n\theight: 30px;\n\tfont-size: 14px;\n\tmargin-left: ", ";\n\tpadding: ", ";\n\topacity: ", ";\n\twidth: ", ";\n"]);
 
   _templateObject13 = function _templateObject13() {
     return data;
@@ -37620,7 +37610,7 @@ function _templateObject13() {
 }
 
 function _templateObject12() {
-  var data = _taggedTemplateLiteral(["\n    display: flex;\n    align-items : center;\n    @media (max-width : 700px) {\n        display: none;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n\tcursor: pointer;\n\tbackground-color: transparent;\n\tborder: 0;\n\timg {\n\t\tfilter: brightness(0) invert(1);\n\t\twidth: 16px;\n\t}\n"]);
 
   _templateObject12 = function _templateObject12() {
     return data;
@@ -37630,7 +37620,7 @@ function _templateObject12() {
 }
 
 function _templateObject11() {
-  var data = _taggedTemplateLiteral(["\n    box-shadow: 0 0.6vw 1vw -0.4vw rgba(0, 0, 0, 0.35);\n    background-color: #e6e6e6;\n    color: #000;\n    border-width: 0;\n    padding: 10px 20px;\n    border-radius: 5px;\n    max-width: 130px;\n    font-weight: bold;\n    font-size: 20px;\n    margin-top: 10px;\n    cursor: pointer;\n    /*transition: background-color: 0.5s ease;*/\n    &:hover {\n        background: #ff1e1e;\n        color: white;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\talign-items: center;\n\t@media (max-width: 700px) {\n\t\tdisplay: none;\n\t}\n"]);
 
   _templateObject11 = function _templateObject11() {
     return data;
@@ -37640,7 +37630,7 @@ function _templateObject11() {
 }
 
 function _templateObject10() {
-  var data = _taggedTemplateLiteral(["\n    color: white;\n    font-size: 50px;\n    line-height: normal;\n    font-weight: bold;\n    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);\n    margin: 0;\n"]);
+  var data = _taggedTemplateLiteral(["\n    box-shadow: 0 0.6vw 1vw -0.4vw rgba(0, 0, 0, 0.35);\n    background-color: #e6e6e6;\n    color: #000;\n    border-width: 0;\n    padding: 10px 20px;\n    border-radius: 5px;\n    max-width: 130px;\n    font-weight: bold;\n    font-size: 20px;\n    margin-top: 10px;\n    cursor: pointer;\n    transition: background-color: 0.5s ease;\n    \n    &:hover {\n        background: #ff1e1e;\n        color: white;\n    }\n"]);
 
   _templateObject10 = function _templateObject10() {
     return data;
@@ -37650,7 +37640,7 @@ function _templateObject10() {
 }
 
 function _templateObject9() {
-  var data = _taggedTemplateLiteral(["\n    padding: 150px 0 500px 0;\n    flex-direction: column;\n    align-items: normal;\n    width: 50%;\n    @media (max-width: 1100px) {\n        display: none;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n\tcolor: white;\n\tfont-size: 50px;\n\tline-height: normal;\n\tfont-weight: bold;\n\ttext-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);\n\tmargin: 0;\n"]);
 
   _templateObject9 = function _templateObject9() {
     return data;
@@ -37660,7 +37650,7 @@ function _templateObject9() {
 }
 
 function _templateObject8() {
-  var data = _taggedTemplateLiteral(["\n    color: white;\n    font-size: 22px;\n    line-height: normal;\n    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);\n"]);
+  var data = _taggedTemplateLiteral(["\n\tpadding: 150px 0 500px 0;\n\tflex-direction: column;\n\talign-items: normal;\n\twidth: 50%;\n\t@media (max-width: 1100px) {\n\t\tdisplay: none;\n\t}\n"]);
 
   _templateObject8 = function _templateObject8() {
     return data;
@@ -37670,7 +37660,7 @@ function _templateObject8() {
 }
 
 function _templateObject7() {
-  var data = _taggedTemplateLiteral(["\n    display: flex;\n    align-items: center;\n"]);
+  var data = _taggedTemplateLiteral(["\n\tcolor: white;\n\tfont-size: 22px;\n\tline-height: normal;\n\ttext-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);\n"]);
 
   _templateObject7 = function _templateObject7() {
     return data;
@@ -37680,7 +37670,7 @@ function _templateObject7() {
 }
 
 function _templateObject6() {
-  var data = _taggedTemplateLiteral(["\n    display: flex;\n    justify-content : space-between;\n    padding : 3rem 1rem;\n"]);
+  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\talign-items: center;\n"]);
 
   _templateObject6 = function _templateObject6() {
     return data;
@@ -37690,7 +37680,7 @@ function _templateObject6() {
 }
 
 function _templateObject5() {
-  var data = _taggedTemplateLiteral(["\n    height: 32px;\n    width: 108px;\n    margin-right: 40px;\n    @media (min-width: 1449px) {\n        height: 45px;\n        width: 167px;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n\theight: 32px;\n\twidth: 108px;\n\tmargin-right: 40px;\n\t@media (min-width: 1449px) {\n\t\theight: 45px;\n\t\twidth: 167px;\n\t}\n"]);
 
   _templateObject5 = function _templateObject5() {
     return data;
@@ -37700,7 +37690,7 @@ function _templateObject5() {
 }
 
 function _templateObject4() {
-  var data = _taggedTemplateLiteral(["\n    display: block;\n    background-color: #e50914;\n    width: 84px;\n    height: fit-content;\n    color: white;\n    border: 0;\n    font-size: 15px;\n    border-radius: 3px;\n    padding: 8px 17px;\n    cursor: pointer;\n    text-decoration: none;\n    box-sizing: border-box;\n    &:hover {\n        background: #f40612;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n\tdisplay: block;\n\tbackground-color: #e50914;\n\twidth: 84px;\n\theight: fit-content;\n\tcolor: white;\n\tborder: 0;\n\tfont-size: 15px;\n\tborder-radius: 3px;\n\tpadding: 8px 17px;\n\tcursor: pointer;\n\ttext-decoration: none;\n\tbox-sizing: border-box;\n\t&:hover {\n\t\tbackground: #f40612;\n\t}\n"]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -37710,7 +37700,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n    color: #fff;\n    text-decoration: none;\n    margin-right: 30px;\n    font-weight: ", ";\n    cursor: pointer;\n    &:hover {\n        font-weight: bold;\n    }\n    &:last-of-type {\n        margin-right: 0;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n\tcolor: #fff;\n\ttext-decoration: none;\n\tmargin-right: 30px;\n\tfont-weight: ", ";\n\tcursor: pointer;\n\t&:hover {\n\t\tfont-weight: bold;\n\t}\n\t&:last-of-type {\n\t\tmargin-right: 0;\n\t}\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -37720,7 +37710,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n    display: flex;\n    margin: 0 56px;\n    height: 100px;\n    justify-content: space-between;\n    align-items: center;\n    a {\n      display: flex;\n    }\n  @media (max-width: 1000px) {\n    margin: 0 30px;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\tmargin: 0 56px;\n\theight: 64px;\n\tpadding: 18px 0;\n\tjustify-content: space-between;\n\talign-items: center;\n\ta {\n\t\tdisplay: flex;\n\t}\n\t@media (max-width: 1000px) {\n\t\tmargin: 0 30px;\n\t}\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -37730,7 +37720,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n    display: flex;\n    flex-direction: column;\n    background: url(", ") top left / cover no-repeat;\n    @media (max-width: 1100px) {\n        ", "\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\tflex-direction: column;\n\tbackground: url(", ")\n\t\ttop left / cover no-repeat;\n\t@media (max-width: 1100px) {\n\t\t", "\n\t}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -37768,37 +37758,33 @@ var Logo = _styledComponents.default.img(_templateObject5());
 
 exports.Logo = Logo;
 
-var Frame = _styledComponents.default.div(_templateObject6());
-
-exports.Frame = Frame;
-
-var Group = _styledComponents.default.div(_templateObject7());
+var Group = _styledComponents.default.div(_templateObject6());
 
 exports.Group = Group;
 
-var Text = _styledComponents.default.p(_templateObject8());
+var Text = _styledComponents.default.p(_templateObject7());
 
 exports.Text = Text;
-var Feature = (0, _styledComponents.default)(Container)(_templateObject9());
+var Feature = (0, _styledComponents.default)(Container)(_templateObject8());
 exports.Feature = Feature;
 
-var FeatureCallOut = _styledComponents.default.h2(_templateObject10());
+var FeatureCallOut = _styledComponents.default.h2(_templateObject9());
 
 exports.FeatureCallOut = FeatureCallOut;
 
-var PlayButton = _styledComponents.default.button(_templateObject11());
+var PlayButton = _styledComponents.default.button(_templateObject10());
 
 exports.PlayButton = PlayButton;
 
-var Search = _styledComponents.default.div(_templateObject12());
+var Search = _styledComponents.default.div(_templateObject11());
 
 exports.Search = Search;
 
-var SearchIcon = _styledComponents.default.button(_templateObject13());
+var SearchIcon = _styledComponents.default.button(_templateObject12());
 
 exports.SearchIcon = SearchIcon;
 
-var SearchInput = _styledComponents.default.input(_templateObject14(), function (_ref4) {
+var SearchInput = _styledComponents.default.input(_templateObject13(), function (_ref4) {
   var active = _ref4.active;
   return active === true ? '10px' : '0';
 }, function (_ref5) {
@@ -37814,18 +37800,18 @@ var SearchInput = _styledComponents.default.input(_templateObject14(), function 
 
 exports.SearchInput = SearchInput;
 
-var Picture = _styledComponents.default.button(_templateObject15(), function (_ref8) {
+var Picture = _styledComponents.default.button(_templateObject14(), function (_ref8) {
   var src = _ref8.src;
   return src;
 });
 
 exports.Picture = Picture;
 
-var Dropdown = _styledComponents.default.div(_templateObject16(), Group, Link, Group, Link, Picture);
+var Dropdown = _styledComponents.default.div(_templateObject15(), Group, Link, Group, Link, Picture);
 
 exports.Dropdown = Dropdown;
 
-var Profile = _styledComponents.default.div(_templateObject17(), Dropdown);
+var Profile = _styledComponents.default.div(_templateObject16(), Dropdown);
 
 exports.Profile = Profile;
 },{"styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js"}],"src/components/header/index.js":[function(require,module,exports) {
@@ -37846,8 +37832,6 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -37860,13 +37844,15 @@ function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
 function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
 function Header(_ref) {
   var _ref$bg = _ref.bg,
-      bg = _ref$bg === void 0 ? "true" : _ref$bg,
+      bg = _ref$bg === void 0 ? true : _ref$bg,
       children = _ref.children,
       restProps = _objectWithoutProperties(_ref, ["bg", "children"]);
 
@@ -37877,7 +37863,7 @@ Header.Frame = function HeaderFrame(_ref2) {
   var children = _ref2.children,
       restProps = _objectWithoutProperties(_ref2, ["children"]);
 
-  return /*#__PURE__*/_react.default.createElement(_header.Frame, restProps, children);
+  return /*#__PURE__*/_react.default.createElement(_header.Container, restProps, children);
 };
 
 Header.Group = function HeaderGroup(_ref3) {
@@ -37885,37 +37871,39 @@ Header.Group = function HeaderGroup(_ref3) {
       restProps = _objectWithoutProperties(_ref3, ["children"]);
 
   return /*#__PURE__*/_react.default.createElement(_header.Group, restProps, children);
-};
+}; // create a new element called logo
+// use ReachRouterLink
+// pass the children to ReachRouterLink
 
-Header.Container = function (_ref4) {
-  var children = _ref4.children,
-      restProps = _objectWithoutProperties(_ref4, ["children"]);
 
-  return /*#__PURE__*/_react.default.createElement(_header.Container, restProps, children);
-};
-
-Header.Logo = function HeaderLogo(_ref5) {
-  var to = _ref5.to,
-      children = _ref5.children,
-      restProps = _objectWithoutProperties(_ref5, ["to", "children"]);
+Header.Logo = function HeaderLogo(_ref4) {
+  var to = _ref4.to,
+      restProps = _objectWithoutProperties(_ref4, ["to"]);
 
   return /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
     to: to
   }, /*#__PURE__*/_react.default.createElement(_header.Logo, restProps));
 };
 
-Header.ButtonLink = function HeaderButtonLink(_ref6) {
-  var children = _ref6.children,
-      restProps = _objectWithoutProperties(_ref6, ["children"]);
+Header.ButtonLink = function HeaderButtonLink(_ref5) {
+  var children = _ref5.children,
+      restProps = _objectWithoutProperties(_ref5, ["children"]);
 
   return /*#__PURE__*/_react.default.createElement(_header.ButtonLink, restProps, children);
 };
 
-Header.Link = function HeaderLink(_ref7) {
+Header.Link = function HeaderLink(_ref6) {
+  var children = _ref6.children,
+      restProps = _objectWithoutProperties(_ref6, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_header.Link, restProps, children);
+};
+
+Header.Text = function HeaderText(_ref7) {
   var children = _ref7.children,
       restProps = _objectWithoutProperties(_ref7, ["children"]);
 
-  return /*#__PURE__*/_react.default.createElement(_header.Link, restProps, children);
+  return /*#__PURE__*/_react.default.createElement(_header.Text, restProps, children);
 };
 
 Header.Feature = function HeaderFeature(_ref8) {
@@ -37939,17 +37927,33 @@ Header.PlayButton = function HeaderPlayButton(_ref10) {
   return /*#__PURE__*/_react.default.createElement(_header.PlayButton, restProps, children);
 };
 
-Header.Text = function HeaderText(_ref11) {
+Header.Profile = function HeaderProfile(_ref11) {
   var children = _ref11.children,
       restProps = _objectWithoutProperties(_ref11, ["children"]);
 
-  return /*#__PURE__*/_react.default.createElement(_header.Text, restProps, children);
+  return /*#__PURE__*/_react.default.createElement(_header.Profile, restProps, children);
 };
 
-Header.Search = function HeaderSearch(_ref12) {
-  var searchTerm = _ref12.searchTerm,
-      setSearchTerm = _ref12.setSearchTerm,
-      restProps = _objectWithoutProperties(_ref12, ["searchTerm", "setSearchTerm"]);
+Header.Dropdown = function HeaderDropdown(_ref12) {
+  var children = _ref12.children,
+      restProps = _objectWithoutProperties(_ref12, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_header.Dropdown, restProps, children);
+};
+
+Header.Picture = function HeaderPicture(_ref13) {
+  var src = _ref13.src,
+      restProps = _objectWithoutProperties(_ref13, ["src"]);
+
+  return /*#__PURE__*/_react.default.createElement(_header.Picture, _extends({}, restProps, {
+    src: "images/users/".concat(src, ".png")
+  }));
+};
+
+Header.Search = function HeaderSearch(_ref14) {
+  var searchTerm = _ref14.searchTerm,
+      setSearchTerm = _ref14.setSearchTerm,
+      restProps = _objectWithoutProperties(_ref14, ["searchTerm", "setSearchTerm"]);
 
   var _useState = (0, _react.useState)(false),
       _useState2 = _slicedToArray(_useState, 2),
@@ -37965,36 +37969,13 @@ Header.Search = function HeaderSearch(_ref12) {
     alt: "Search"
   })), /*#__PURE__*/_react.default.createElement(_header.SearchInput, {
     value: searchTerm,
-    onChange: function onChange(_ref13) {
-      var target = _ref13.target;
+    onChange: function onChange(_ref15) {
+      var target = _ref15.target;
       return setSearchTerm(target.value);
     },
     placeholder: "Search files and series",
     active: searchActive
   }));
-};
-
-Header.Profile = function HeaderProfile(_ref14) {
-  var children = _ref14.children,
-      restProps = _objectWithoutProperties(_ref14, ["children"]);
-
-  return /*#__PURE__*/_react.default.createElement(_header.Profile, restProps, children);
-};
-
-Header.Picture = function HeaderPicture(_ref15) {
-  var src = _ref15.src,
-      restProps = _objectWithoutProperties(_ref15, ["src"]);
-
-  return /*#__PURE__*/_react.default.createElement(_header.Picture, _extends({}, restProps, {
-    src: "/images/users/".concat(src, ".png")
-  }));
-};
-
-Header.Dropdown = function HeaderDropdown(_ref16) {
-  var children = _ref16.children,
-      restProps = _objectWithoutProperties(_ref16, ["children"]);
-
-  return /*#__PURE__*/_react.default.createElement(Dropdown, restProps, children);
 };
 },{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./styles/header":"src/components/header/styles/header.js"}],"src/components/feature/styles/feature.js":[function(require,module,exports) {
 "use strict";
@@ -38468,7 +38449,105 @@ Profiles.Name = function ProfilesName(_ref6) {
 
   return /*#__PURE__*/_react.default.createElement(_profiles.Name, restProps, children);
 };
-},{"react":"node_modules/react/index.js","./styles/profiles":"src/components/profiles/styles/profiles.js"}],"src/components/index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./styles/profiles":"src/components/profiles/styles/profiles.js"}],"src/components/loading/styles/loading.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Picture = exports.Spinner = exports.ReleaseBody = exports.LockBody = void 0;
+
+var _styledComponents = _interopRequireWildcard(require("styled-components"));
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _templateObject4() {
+  var data = _taggedTemplateLiteral(["\n    width: 50px;\n    height: 50px;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    margin-top: -100px;\n    margin-left: -22px;\n"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = _taggedTemplateLiteral(["\n    position: fixed;\n    width: 100%;\n    height: 100%;\n    background-color: black;\n    z-index: 999;\n    :after {\n        content: '';\n        position: absolute;\n        top: 50%;\n        left: 50%;\n        background-image: url(/images/misc/spinner.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        margin-top: -150px;\n        margin-left: -75px;\n        width: 150px;\n        height: 150px;\n        animation-name: spin;\n        animation-duration: 1000ms;\n        animation-iteration-count: infinite;\n        animation-timing-function: linear;\n    }\n    @-ms-keyframes spin {\n        from {\n            -ms-transform: rotate(0deg);\n        }\n        to {\n            -ms-transform: rotate(360deg);\n        }\n    }\n    @-moz-keyframes spin {\n        from {\n            -moz-transform: rotate(0deg);\n        }\n        to {\n            -moz-transform: rotate(360deg);\n        }\n    }\n    @-webkit-keyframes spin {\n        from {\n            -webkit-transform: rotate(0deg);\n        }\n        to {\n            -webkit-transform: rotate(360deg);\n        }\n    }\n    @keyframes spin {\n        from {\n            transform: rotate(0deg);\n        }\n        to {\n            transform: rotate(360deg);\n        }\n    }\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["\n    body {\n        overflow: visible;\n    }\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n    body {\n        overflow: hidden;\n    }\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var LockBody = (0, _styledComponents.createGlobalStyle)(_templateObject());
+exports.LockBody = LockBody;
+var ReleaseBody = (0, _styledComponents.createGlobalStyle)(_templateObject2());
+exports.ReleaseBody = ReleaseBody;
+
+var Spinner = _styledComponents.default.div(_templateObject3());
+
+exports.Spinner = Spinner;
+
+var Picture = _styledComponents.default.img(_templateObject4());
+
+exports.Picture = Picture;
+},{"styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"src/components/loading/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Loading;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _loading = require("./styles/loading");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function Loading(_ref) {
+  var src = _ref.src,
+      restProps = _objectWithoutProperties(_ref, ["src"]);
+
+  return /*#__PURE__*/_react.default.createElement(_loading.Spinner, restProps, /*#__PURE__*/_react.default.createElement(_loading.LockBody, null), /*#__PURE__*/_react.default.createElement(_loading.Picture, {
+    src: "/images/users/".concat(src, ".png")
+  }));
+}
+
+Loading.ReleaseBody = function LoadingReleaseBody() {
+  return /*#__PURE__*/_react.default.createElement(_loading.ReleaseBody, null);
+};
+},{"react":"node_modules/react/index.js","./styles/loading":"src/components/loading/styles/loading.js"}],"src/components/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38522,6 +38601,12 @@ Object.defineProperty(exports, "Profiles", {
     return _profiles.default;
   }
 });
+Object.defineProperty(exports, "Loading", {
+  enumerable: true,
+  get: function () {
+    return _loading.default;
+  }
+});
 
 var _jumbotron = _interopRequireDefault(require("./jumbotron"));
 
@@ -38539,8 +38624,10 @@ var _form = _interopRequireDefault(require("./form"));
 
 var _profiles = _interopRequireDefault(require("./profiles"));
 
+var _loading = _interopRequireDefault(require("./loading"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./jumbotron":"src/components/jumbotron/index.js","./footer":"src/components/footer/index.js","./accordion":"src/components/accordion/index.js","./opt-form":"src/components/opt-form/index.js","./header":"src/components/header/index.js","./feature":"src/components/feature/index.js","./form":"src/components/form/index.js","./profiles":"src/components/profiles/index.js"}],"src/fixtures/faqs.json":[function(require,module,exports) {
+},{"./jumbotron":"src/components/jumbotron/index.js","./footer":"src/components/footer/index.js","./accordion":"src/components/accordion/index.js","./opt-form":"src/components/opt-form/index.js","./header":"src/components/header/index.js","./feature":"src/components/feature/index.js","./form":"src/components/form/index.js","./profiles":"src/components/profiles/index.js","./loading":"src/components/loading/index.js"}],"src/fixtures/faqs.json":[function(require,module,exports) {
 module.exports = [{
   "id": 1,
   "header": "What is Netflix?",
@@ -39035,9 +39122,9 @@ var ROUTES = _interopRequireWildcard(require("../constants/routes"));
 
 var _firebase = require("../context/firebase");
 
-var _footer = _interopRequireDefault(require("./footer"));
-
 var _profiles = _interopRequireDefault(require("./profiles"));
+
+var _footer = _interopRequireDefault(require("./footer"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -39063,59 +39150,66 @@ function BrowseContainer() {
       profile = _useState2[0],
       setProfile = _useState2[1];
 
-  var _useState3 = (0, _react.useState)(true),
+  var _useState3 = (0, _react.useState)(''),
       _useState4 = _slicedToArray(_useState3, 2),
-      loading = _useState4[0],
-      setLoading = _useState4[1];
+      searchTerm = _useState4[0],
+      setSearchTerm = _useState4[1];
 
   var _useState5 = (0, _react.useState)('series'),
       _useState6 = _slicedToArray(_useState5, 2),
       category = _useState6[0],
       setCategory = _useState6[1];
 
-  var _useState7 = (0, _react.useState)(''),
+  var _useState7 = (0, _react.useState)(true),
       _useState8 = _slicedToArray(_useState7, 2),
-      searchTerm = _useState8[0],
-      setSearchTerm = _useState8[1];
+      loading = _useState8[0],
+      setLoading = _useState8[1];
 
   var user = {
     displayName: 'Mee',
-    photoUrl: 1
+    photoUrl: '1'
   };
-  return profile.displayName ? /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_components.Header, {
+  (0, _react.useEffect)(function () {
+    setTimeout(function () {
+      setLoading(false);
+    }, 300);
+  }, [user]);
+  return profile.displayName ? /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, loading ? /*#__PURE__*/_react.default.createElement(_components.Loading, {
+    src: user.photoUrl
+  }) : /*#__PURE__*/_react.default.createElement(_components.Loading.ReleaseBody, null), /*#__PURE__*/_react.default.createElement(_components.Header, {
     src: "joker1",
     dontShowOnSmallViewPort: true
   }, /*#__PURE__*/_react.default.createElement(_components.Header.Frame, null, /*#__PURE__*/_react.default.createElement(_components.Header.Group, null, /*#__PURE__*/_react.default.createElement(_components.Header.Logo, {
     to: ROUTES.HOME,
-    src: "/images//misc/logo.svg",
+    src: "/images/misc/logo.svg",
     alt: "Netflix"
   }), /*#__PURE__*/_react.default.createElement(_components.Header.Link, {
-    active: category === 'series' ? 'true' : 'false',
     onClick: function onClick() {
-      return setCategory("series");
-    }
+      return setCategory('series');
+    },
+    active: category === 'series' ? 'true' : 'false'
   }, "Series"), /*#__PURE__*/_react.default.createElement(_components.Header.Link, {
-    active: category === 'films' ? 'true' : 'false',
     onClick: function onClick() {
-      return setCategory("films");
-    }
+      return setCategory('films');
+    },
+    active: category === 'films' ? 'true' : 'false'
   }, "Films")), /*#__PURE__*/_react.default.createElement(_components.Header.Group, null, /*#__PURE__*/_react.default.createElement(_components.Header.Search, {
     searchTerm: searchTerm,
     setSearchTerm: setSearchTerm
-  }, /*#__PURE__*/_react.default.createElement(_components.Header.Profile, null, /*#__PURE__*/_react.default.createElement(_components.Header.Picture, {
+  }), /*#__PURE__*/_react.default.createElement(_components.Header.Profile, null, /*#__PURE__*/_react.default.createElement(_components.Header.Picture, {
     src: user.photoUrl
   }), /*#__PURE__*/_react.default.createElement(_components.Header.Dropdown, null, /*#__PURE__*/_react.default.createElement(_components.Header.Group, null, /*#__PURE__*/_react.default.createElement(_components.Header.Picture, {
     src: user.photoUrl
-  }), /*#__PURE__*/_react.default.createElement(_components.Header.Link, {
+  }), /*#__PURE__*/_react.default.createElement(_components.Header.Link, null, user.displayName)), /*#__PURE__*/_react.default.createElement(_components.Header.Group, null, /*#__PURE__*/_react.default.createElement(_components.Header.Link, {
     onClick: function onClick() {
-      return _firebase.FirebaseContext.auth().signOut();
+      return firebase.auth().signOut();
     }
-  }, user.displayName)), /*#__PURE__*/_react.default.createElement(_components.Header.Group, null, /*#__PURE__*/_react.default.createElement(_components.Header.Link, null, "Sign out"))))))), /*#__PURE__*/_react.default.createElement(_components.Header.Feature, null, /*#__PURE__*/_react.default.createElement(_components.Header.FeatureCallOut, null, "Watch Joker Now"), /*#__PURE__*/_react.default.createElement(_components.Header.Text, null, "Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham job as a clown, and the guise he projects in a futile attempt to feel like he's part of the world around him."), /*#__PURE__*/_react.default.createElement(_components.Header.PlayButton, null, "Play"))), /*#__PURE__*/_react.default.createElement(_footer.default, null)) : /*#__PURE__*/_react.default.createElement(_profiles.default, {
+  }, "Sign out")))))), /*#__PURE__*/_react.default.createElement(_components.Header.Feature, null, /*#__PURE__*/_react.default.createElement(_components.Header.FeatureCallOut, null, "Watch Joker Now"), /*#__PURE__*/_react.default.createElement(_components.Header.Text, null, "Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he's part of the world around him."), /*#__PURE__*/_react.default.createElement(_components.Header.PlayButton, null, "Play"))), /*#__PURE__*/_react.default.createElement(_footer.default, null)) : /*#__PURE__*/_react.default.createElement(_profiles.default, {
     user: user,
     setProfile: setProfile
   });
 }
-},{"react":"node_modules/react/index.js","../components":"src/components/index.js","../constants/routes":"src/constants/routes.js","../context/firebase":"src/context/firebase.js","./footer":"src/containers/footer.js","./profiles":"src/containers/profiles.js"}],"src/pages/browse.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../components":"src/components/index.js","../constants/routes":"src/constants/routes.js","../context/firebase":"src/context/firebase.js","./profiles":"src/containers/profiles.js","./footer":"src/containers/footer.js"}],"src/pages/browse.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -39251,8 +39345,9 @@ var config = {
   storageBucket: "netflix-onja-rs.appspot.com",
   messagingSenderId: "251269401153",
   appId: "1:251269401153:web:b7ef14a8f5d26e7fab14c0"
-};
-var firebase = window.firebase.initializeApp(config);
+}; // import { seedDatabase } from './seed';
+
+var firebase = window.firebase.initializeApp(config); // seedDatabase(firebase);
 
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_firebase.FirebaseContext.Provider, {
   value: {
@@ -39287,7 +39382,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56009" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53766" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
