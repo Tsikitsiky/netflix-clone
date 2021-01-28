@@ -1,5 +1,5 @@
 import React from 'react'
-import { useContent } from '../components/hooks'
+import { useContent } from '../hooks'
 import BrowseContainer from '../containers/browse'
 import { selectionMap } from '../utils'
 

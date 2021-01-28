@@ -3,14 +3,17 @@ import ReactDOM from 'react-dom';
 import { App } from './app';
 import { GlobalStyles } from './global-styles';
 import {FirebaseContext} from './context/firebase'
+import dotenv from 'dotenv'
+
+dotenv.config();
 
 const config = {
-    apiKey: "AIzaSyA9LX0lGjTkVfXBXfY1pypgowNMgFkPLuY",
-    authDomain: "netflix-onja-rs.firebaseapp.com",
-    projectId: "netflix-onja-rs",
-    storageBucket: "netflix-onja-rs.appspot.com",
-    messagingSenderId: "251269401153",
-    appId: "1:251269401153:web:b7ef14a8f5d26e7fab14c0",
+    apiKey: process.env.API_KEY,
+    authDomain: process.env.AUTH_DOMAIN,
+    projectId: process.env.PROJECT_ID,
+    storageBucket: process.env.STORAGE_BUCKET,
+    messagingSenderId: process.env.MESSAGING_SENDER_ID,
+    appId: process.env.APP_ID,
 }
 
 // import { seedDatabase } from './seed';
